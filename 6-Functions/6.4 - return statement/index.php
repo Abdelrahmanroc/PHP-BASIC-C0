@@ -7,8 +7,8 @@
 function maakBerekening(){
     $koopPrijs = 75;
     $korting = 10;
-    $proc= ($koopPrijs / 100) * $korting;
-    return $koopPrijs-$proc;
+    $procent= ($koopPrijs / 100) * $korting;
+    return $koopPrijs-$procent;
 }
 
 function zetAllesGroot(){
