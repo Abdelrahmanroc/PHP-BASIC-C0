@@ -7,7 +7,7 @@
 $getal1 = 112;
 echo $getal1++;
 echo "<br>";
-echo $getal1--;
+echo $getal1--
 
 
 ?>
