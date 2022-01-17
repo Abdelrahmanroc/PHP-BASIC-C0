@@ -8,12 +8,15 @@
  * Verder hoef je geen code te schrijven op deze pagina.
  */
 
+ 
+require 'bitcoinData.php';
+
 
 
 /*******************************************************************************************************************/
 /**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
 ?>
-<?php include 'bitcoinData.php'; ?>
+
 <?php include 'header.php'; ?>
 <div class="container mt-4">
     <div class="row mb-4">
