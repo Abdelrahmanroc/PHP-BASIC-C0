@@ -3,9 +3,9 @@
 <body>
 
 <?php
-$myHeroes =  ['Omer', 'Atem', 'shira'];
-array_push($myHeroes, 'bos');
+$myHeroes = ['mijn vader', 'shira'];
+array_push($myHeroes, 'M');
 print_r($myHeroes);
 ?>
 </body>
-</html>
+</html> 
