@@ -4,35 +4,44 @@
 
 <?php
 
-$var1 = 12;
-
-if($var1 < 10 && $var1 > 5) {
-    echo "het getal zit tussen de 6 en de 12!";
+$var1= 22;
+$var2= 22;
+if($var1 <10 && $var2<10) {
+    echo " beide getalen zijn kleiner dan 10 ";
 } else {
-    echo "het getal is groter dan 6 of kleiner dan 13!";
+    echo "beide getalen zijn groter dan 10";
+}
+
+echo "<br>";
+
+$var1= 2;
+$var2= 22;
+if($var1 <10 || $var2<10) {
+    echo " beide getalen zijn kleiner dan 10 ";
+} else {
+    echo "beide getalen zijn groter dan 10";
 }
 echo "<br>";
 
-if($var1 < 12 || $var1 > 12) {
-    echo "beide van de twee waardes waar zijn";
+
+$var1= 55;
+$var2= 33;
+if($var1 <10 xor $var2<10) {
+    echo " beide getalen zijn kleiner dan 10 ";
 } else {
-    echo "beide van de twee waardes niet zelfde zijn";
+    echo "beide getalen zijn groter dan 10";
 }
 echo "<br>";
 
-if($var1 < 12 xor $var1 > 5) {
-    echo " eerste getal is waar";
-} else {
-    echo "2de getal is niet waar";
-}
-echo "<br>";
 
-if($var1 < 20 ! $var1 > 20) {
-    echo " eerste getal is niet waar";
+$var1= 9;
+$var2= 11;
+if($var1 !== $var2) {
+    echo " De getalen zijn niet het zelfde ";
 } else {
-    echo "2de getal is niet waar";
+    echo "De getalen zijn het zelfde ";
 }
 
 ?>
 </body>
-</html>
+</html> 
